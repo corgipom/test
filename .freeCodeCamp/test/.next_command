@@ -56,3 +56,7 @@ history -a
 echo $NAME
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo Joe
+read NAME
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
