@@ -683,3 +683,7 @@ history -a
 diff --color kitty_ipsum_2.txt doggy_ipsum_2.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+git init
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+git add .
