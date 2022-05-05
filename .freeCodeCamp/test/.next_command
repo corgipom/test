@@ -85,3 +85,7 @@ history -a
 ./script.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo JLENO
+./script.sh
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
