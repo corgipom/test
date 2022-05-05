@@ -135,3 +135,18 @@ history -a
 wc kitty_ipsum_1.txt -w
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+wc kitty_ipsum_1.txt -c
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt -ch
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt -b
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc --help
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt -m
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
