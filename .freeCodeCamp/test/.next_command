@@ -126,3 +126,9 @@ history -a
 man wc
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+man wc -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+wc kitty_ipsum_1.txt -l
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
