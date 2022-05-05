@@ -351,3 +351,6 @@ history -a
 grep --colour 'cat[a-z]*' kitty_ipsum_1.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo -e "\nNumber of times cat, cats, or catnip appears:" >> kitty_info.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
