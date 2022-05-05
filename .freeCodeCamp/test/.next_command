@@ -597,3 +597,11 @@ history -a
 grep --colour 'dog[a-z]*'
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./transltae.sh kitty_ipsum_1.txt
+grep --colour 'cat[a-z]*'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+./translate.sh kitty_ipsum_1.txt
+grep --colour 'cat[a-z]*'
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
