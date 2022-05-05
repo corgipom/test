@@ -89,3 +89,15 @@ echo JLENO
 ./script.sh
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+echo JLENO
+./script.sh > stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo JLENO
+./script.sh >> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
+echo JLENO
+./script.sh 2> stderr.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
