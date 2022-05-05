@@ -105,3 +105,6 @@ echo JLENO
 ./script.sh 2> stderr.txt > stdout.txt
 echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
 history -a
+./script.sh < name.txt
+echo $PWD >> ~/project/.freeCodeCamp/test/.cwd
+history -a
